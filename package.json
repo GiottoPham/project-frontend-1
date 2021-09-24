@@ -1,0 +1,19 @@
+{
+  "name": "single-price-grid-component-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shimyshack/tailwindcss-pseudo-element-plugin": "^1.0.4",
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "tailwindcss": "^2.2.15"
+  },
+  "scripts": {
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "tailwindcss-pseudo-elements": "^2.0.0"
+  }
+}
